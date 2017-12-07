@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+  box-sizing: content-box;
+}
+
+header {
+  margin: 1rem auto;
+}
+
+input {
+  text-align: left;
+  width: 65vw;
+  height: 26px;
+  padding-left: 1rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+img {
+  margin-bottom: 1rem;
+  width: 70vw;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 31vw;
+    margin: 1rem 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  input {
+    width: 38vw;
+  }
+
+  img {
+    width: 18vw;
+  }
+}
