@@ -21,6 +21,14 @@ img {
   width: 70vw;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
 @media (min-width: 768px) {
   img {
     width: 31vw;
